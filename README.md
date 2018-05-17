@@ -95,7 +95,7 @@ saver.restore(sess, tf.train.latest_checkpoint('./tmp/'))
 graph = tf.get_default_graph()
 ```
 
-3. Initialize the input parameters and assing them values using a *feed_dictionary*
+3. Initialize the input parameters and assing them values using a *feed_dictionary*. Remember to invoke them using the same names provided in the saved session
 ```
 input = graph.get_tensor_by_name("inputs:0")
 dropout = graph.get_tensor_by_name("dropout:0")
