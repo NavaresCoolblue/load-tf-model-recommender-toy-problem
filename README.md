@@ -71,7 +71,7 @@ saver = tf.train.Saver()
 
 5. Save the session 
 
-This will create a model graph and checkpoints along with tensor indices. During (4), several checkpoints can be also created in order to, for instance, stop training and continuing with it in another session. 
+This will create a model graph and checkpoints along with tensor indices. During (4), several checkpoints can be also created in order to, for instance, stop training and continue with it in another session. 
 
 ```python
 saver.save(sess, "./tmp/model.ckpt")
