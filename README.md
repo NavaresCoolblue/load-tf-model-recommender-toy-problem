@@ -5,7 +5,7 @@ A recommended read can be found [here](https://towardsdatascience.com/deploy-ten
 
 ## Requirements
 
-```
+```python
 import sys
 import tensorflow as tf
 import numpy as np
